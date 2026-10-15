@@ -1,0 +1,11 @@
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.csproj.AssemblyReference.cache
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.Fomrs.HeThong.frmMain.resources
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.Properties.Resources.resources
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.csproj.GenerateResource.cache
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.csproj.CoreCompileInputs.cache
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\bin\Debug\QLBanBanhvaDoUong.exe.config
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\bin\Debug\QLBanBanhvaDoUong.exe
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\bin\Debug\QLBanBanhvaDoUong.pdb
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.Forms.HeThong.frmDangNhap.resources
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.exe
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.pdb
