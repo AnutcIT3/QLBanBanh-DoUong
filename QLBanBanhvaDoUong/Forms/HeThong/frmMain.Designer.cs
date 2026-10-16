@@ -31,6 +31,10 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.banHangToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sanPhamToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.banhNgotToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.banhManToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.traToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cafeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.khachHangToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hoaDonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nhanVienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -67,9 +71,38 @@
             // 
             // sanPhamToolStripMenuItem
             // 
+            this.sanPhamToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.banhNgotToolStripMenuItem,
+            this.banhManToolStripMenuItem,
+            this.traToolStripMenuItem,
+            this.cafeToolStripMenuItem});
             this.sanPhamToolStripMenuItem.Name = "sanPhamToolStripMenuItem";
             this.sanPhamToolStripMenuItem.Size = new System.Drawing.Size(89, 24);
             this.sanPhamToolStripMenuItem.Text = "Sản phẩm";
+            // 
+            // banhNgotToolStripMenuItem
+            // 
+            this.banhNgotToolStripMenuItem.Name = "banhNgotToolStripMenuItem";
+            this.banhNgotToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.banhNgotToolStripMenuItem.Text = "Bánh ngọt";
+            // 
+            // banhManToolStripMenuItem
+            // 
+            this.banhManToolStripMenuItem.Name = "banhManToolStripMenuItem";
+            this.banhManToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.banhManToolStripMenuItem.Text = "Bánh mặn";
+            // 
+            // traToolStripMenuItem
+            // 
+            this.traToolStripMenuItem.Name = "traToolStripMenuItem";
+            this.traToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.traToolStripMenuItem.Text = "Trà";
+            // 
+            // cafeToolStripMenuItem
+            // 
+            this.cafeToolStripMenuItem.Name = "cafeToolStripMenuItem";
+            this.cafeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cafeToolStripMenuItem.Text = "Cafe";
             // 
             // khachHangToolStripMenuItem
             // 
@@ -167,6 +200,10 @@
         private System.Windows.Forms.Button btnDangXuat;
         private System.Windows.Forms.GroupBox grbSanPham;
         private System.Windows.Forms.Label lblDoanhThuNgay;
+        private System.Windows.Forms.ToolStripMenuItem banhNgotToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem banhManToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem traToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cafeToolStripMenuItem;
     }
 }
 

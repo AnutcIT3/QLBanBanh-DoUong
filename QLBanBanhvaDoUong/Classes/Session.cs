@@ -11,5 +11,11 @@ namespace QLBanBanhvaDoUong.Classes
         public static string MaNV { get; set; } = "";
         public static string HoTen { get; set; } = "";
         public static string ChucVu { get; set; } = "";
+        public static void Clear()
+        {
+            MaNV = "";
+            HoTen = "";
+            ChucVu = "";
+        }
     }
 }

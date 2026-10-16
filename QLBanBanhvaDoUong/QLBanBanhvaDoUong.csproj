@@ -49,6 +49,12 @@
     <Compile Include="Classes\DataProcesser.cs" />
     <Compile Include="Classes\Function.cs" />
     <Compile Include="Classes\Session.cs" />
+    <Compile Include="Forms\DanhMuc\frmSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DanhMuc\frmSanPham.Designer.cs">
+      <DependentUpon>frmSanPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\HeThong\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,8 +75,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\DanhMuc\frmSanPham.resx">
+      <DependentUpon>frmSanPham.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\HeThong\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HeThong\frmDoiMatKhau.resx">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HeThong\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -99,7 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Forms\BaoCao\" />
-    <Folder Include="Forms\DanhMuc\" />
     <Folder Include="Forms\NghiepVu\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

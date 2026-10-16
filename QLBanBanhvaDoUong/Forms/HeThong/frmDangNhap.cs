@@ -69,5 +69,15 @@ namespace QLBanBanhvaDoUong.Forms.HeThong
         {
             DialogResult = DialogResult.Cancel;
         }
+
+        private void btnDoiMK_Click(object sender, EventArgs e)
+        {
+            using (var f = new frmDoiMatKhau(txtMaNV.Text.Trim()))
+            {
+                f.ShowDialog(this);
+            }
+            txtMK.Clear();
+            txtMK.Focus();
+        }
     }
 }

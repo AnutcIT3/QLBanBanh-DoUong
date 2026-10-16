@@ -36,6 +36,7 @@
             this.txtMK = new System.Windows.Forms.TextBox();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.btnDoiMK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblDangNhap
@@ -102,6 +103,7 @@
             // 
             // btnThoat
             // 
+            this.btnThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnThoat.Location = new System.Drawing.Point(29, 383);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(102, 45);
@@ -110,13 +112,26 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // btnDoiMK
+            // 
+            this.btnDoiMK.Location = new System.Drawing.Point(529, 364);
+            this.btnDoiMK.Name = "btnDoiMK";
+            this.btnDoiMK.Size = new System.Drawing.Size(108, 64);
+            this.btnDoiMK.TabIndex = 7;
+            this.btnDoiMK.Text = "Đổi mật khẩu";
+            this.btnDoiMK.UseVisualStyleBackColor = true;
+            this.btnDoiMK.Click += new System.EventHandler(this.btnDoiMK_Click);
+            // 
             // frmDangNhap
             // 
+            this.AcceptButton = this.btnDangNhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.btnThoat;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDoiMK);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.txtMK);
@@ -141,5 +156,6 @@
         private System.Windows.Forms.TextBox txtMK;
         private System.Windows.Forms.Button btnDangNhap;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnDoiMK;
     }
 }
