@@ -51,8 +51,8 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtDonViTinh = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtDonViTinh = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picAnh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanPham)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -127,7 +127,6 @@
             this.txtTenSP.Name = "txtTenSP";
             this.txtTenSP.Size = new System.Drawing.Size(355, 22);
             this.txtTenSP.TabIndex = 18;
-            this.txtTenSP.TextChanged += new System.EventHandler(this.txtTenSanPham_TextChanged);
             // 
             // txtDonGia
             // 
@@ -152,6 +151,7 @@
             this.btnLoai.TabIndex = 21;
             this.btnLoai.Text = "Loại ";
             this.btnLoai.UseVisualStyleBackColor = true;
+            this.btnLoai.Click += new System.EventHandler(this.btnLoai_Click);
             // 
             // btnAnh
             // 
@@ -179,6 +179,7 @@
             this.btnSua.TabIndex = 24;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
@@ -208,6 +209,7 @@
             this.btnXuatFile.TabIndex = 27;
             this.btnXuatFile.Text = "Xuất file Excel";
             this.btnXuatFile.UseVisualStyleBackColor = true;
+            this.btnXuatFile.Click += new System.EventHandler(this.btnXuatFile_Click);
             // 
             // btnTimKiem
             // 
@@ -238,6 +240,7 @@
             this.btnBoQua.TabIndex = 30;
             this.btnBoQua.Text = "Bỏ qua";
             this.btnBoQua.UseVisualStyleBackColor = true;
+            this.btnBoQua.Click += new System.EventHandler(this.btnBoQua_Click);
             // 
             // btnXoa
             // 
@@ -257,6 +260,7 @@
             this.btnThoat.TabIndex = 32;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // groupBox1
             // 
@@ -278,13 +282,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sản phẩm";
             // 
-            // txtDonViTinh
-            // 
-            this.txtDonViTinh.Location = new System.Drawing.Point(104, 171);
-            this.txtDonViTinh.Name = "txtDonViTinh";
-            this.txtDonViTinh.Size = new System.Drawing.Size(355, 22);
-            this.txtDonViTinh.TabIndex = 22;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -293,6 +290,13 @@
             this.label5.Size = new System.Drawing.Size(70, 16);
             this.label5.TabIndex = 23;
             this.label5.Text = "Đơn vị tính:";
+            // 
+            // txtDonViTinh
+            // 
+            this.txtDonViTinh.Location = new System.Drawing.Point(104, 171);
+            this.txtDonViTinh.Name = "txtDonViTinh";
+            this.txtDonViTinh.Size = new System.Drawing.Size(355, 22);
+            this.txtDonViTinh.TabIndex = 22;
             // 
             // frmSanPham
             // 

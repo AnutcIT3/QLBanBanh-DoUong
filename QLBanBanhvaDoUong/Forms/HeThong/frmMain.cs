@@ -1,4 +1,5 @@
 ﻿using QLBanBanhvaDoUong.Classes;
+using QLBanBanhvaDoUong.Forms.DanhMuc;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -63,6 +64,38 @@ namespace QLBanBanhvaDoUong.Fomrs.HeThong
             {
                 Application.Restart();   // quay lại form đăng nhập
             }
+        }
+
+        private void sanPhamToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSanPham sp = new frmSanPham();
+            sp.ShowDialog(this);
+        }
+
+        private void banhNgotToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MoForm(new frmSanPham("L01"));
+        }
+
+        private void traToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MoForm(new frmSanPham("L02"));
+        }
+
+        private void banhManToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MoForm(new frmSanPham("L04"));
+        }
+
+        private void cafeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MoForm(new frmSanPham("L03"));
+        }
+
+        private void AllToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSanPham sp = new frmSanPham();
+            sp.ShowDialog(this);
         }
     }
 }

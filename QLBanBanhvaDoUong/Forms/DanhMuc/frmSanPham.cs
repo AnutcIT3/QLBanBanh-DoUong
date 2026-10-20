@@ -32,10 +32,6 @@ namespace QLBanBanhvaDoUong.Forms.DanhMuc
             InitializeComponent();
             this.maLoaiLoc = maLoaiLoc;
         }
-        private void txtTenSanPham_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void frmSanPham_Load(object sender, EventArgs e)
         {
@@ -343,6 +339,154 @@ namespace QLBanBanhvaDoUong.Forms.DanhMuc
                 new SqlParameter("@dvt", txtDonViTinh.Text.Trim()),
                 new SqlParameter("@anh", NullNeuRong(LuuAnh(ma)))
             };
+        }
+        private static object NullNeuRong(string s)
+        {
+            return string.IsNullOrWhiteSpace(s) ? (object)DBNull.Value : s;
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            dangThem = false;
+            DatNut(false, true, false, true, true);
+        }
+
+        private void btnBoQua_Click(object sender, EventArgs e)
+        {
+            dangThem = false;
+            ResetValue();
+            TaiDuLieu(false);
+            DatNut(true, false, false, false, false);
+        }
+
+        private void btnLoai_Click(object sender, EventArgs e)
+        {
+            if (!laQuanLy)
+            {
+                MessageBox.Show("Chỉ quản lý mới được thêm loại sản phẩm.");
+                return;
+            }
+
+            string ten = HoiTen("Thêm loại sản phẩm", "Tên loại mới:");
+            if (string.IsNullOrWhiteSpace(ten)) return;
+
+            try
+            {
+                DataTable trung = dp.DocBang("SELECT COUNT(*) FROM LoaiSanPham WHERE TenLoai = @ten",
+                    new SqlParameter("@ten", ten));
+                if (Convert.ToInt32(trung.Rows[0][0]) > 0)
+                {
+                    MessageBox.Show("Loại sản phẩm này đã tồn tại.");
+                    return;
+                }
+
+                // Sinh mã mới dạng L05, L06, ...
+                DataTable so = dp.DocBang(
+                    "SELECT ISNULL(MAX(TRY_CAST(SUBSTRING(MaLoai, 2, 10) AS INT)), 0) + 1 FROM LoaiSanPham");
+                string maMoi = "L" + Convert.ToInt32(so.Rows[0][0]).ToString("00");
+
+                dp.CapNhat("INSERT INTO LoaiSanPham (MaLoai, TenLoai) VALUES (@ma, @ten)",
+                    new SqlParameter("@ma", maMoi),
+                    new SqlParameter("@ten", ten));
+
+                fn.FillComBox(cboLoai, dp.DocBang(SqlLoai), "TenLoai", "MaLoai");
+                cboLoai.SelectedValue = maMoi;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+        private static string HoiTen(string tieuDe, string nhan)
+        {
+            using (var f = new Form())
+            using (var lbl = new Label { Text = nhan, Left = 12, Top = 14, AutoSize = true })
+            using (var txt = new TextBox { Left = 12, Top = 38, Width = 260 })
+            using (var ok = new Button { Text = "OK", Left = 116, Top = 72, Width = 75, DialogResult = DialogResult.OK })
+            using (var huy = new Button { Text = "Hủy", Left = 197, Top = 72, Width = 75, DialogResult = DialogResult.Cancel })
+            {
+                f.Text = tieuDe;
+                f.ClientSize = new Size(290, 110);
+                f.FormBorderStyle = FormBorderStyle.FixedDialog;
+                f.StartPosition = FormStartPosition.CenterParent;
+                f.MaximizeBox = false;
+                f.MinimizeBox = false;
+                f.AcceptButton = ok;
+                f.CancelButton = huy;
+                f.Controls.AddRange(new Control[] { lbl, txt, ok, huy });
+                return f.ShowDialog() == DialogResult.OK ? txt.Text.Trim() : null;
+            }
+        }
+
+        private void btnXuatFile_Click(object sender, EventArgs e)
+        {
+            if (dgvSanPham.Rows.Count == 0)
+            {
+                MessageBox.Show("Không có dữ liệu để xuất.");
+                return;
+            }
+
+            using (var dlg = new SaveFileDialog())
+            {
+                dlg.Filter = "Excel (*.xlsx)|*.xlsx";
+                dlg.FileName = "DanhSachSanPham.xlsx";
+                if (dlg.ShowDialog() != DialogResult.OK) return;
+
+                Excel.Application exApp = null;
+                Excel.Workbook exBook = null;
+                try
+                {
+                    exApp = new Excel.Application();
+                    exBook = exApp.Workbooks.Add(Excel.XlWBATemplate.xlWBATWorksheet);
+                    Excel.Worksheet exSheet = (Excel.Worksheet)exBook.Worksheets[1];
+                    exSheet.Name = "DSSanPham";
+
+                    // Tiêu đề
+                    exSheet.Range["B2"].Value = "Danh sách sản phẩm";
+                    exSheet.Range["B2"].Font.Size = 25;
+                    exSheet.Range["B2"].Font.Name = "Times New Roman";
+                    exSheet.Range["B2"].Font.Color = ColorTranslator.ToOle(Color.Red);
+
+                    // Dòng tiêu đề cột
+                    string[] tieuDeCot = { "Mã SP", "Tên sản phẩm", "Loại", "Đơn giá bán", "Đơn vị tính" };
+                    for (int c = 0; c < tieuDeCot.Length; c++)
+                        exSheet.Cells[4, c + 1] = tieuDeCot[c];
+                    exSheet.Range["A4:E4"].Font.Size = 13;
+                    exSheet.Range["A4:E4"].Font.Name = "Times New Roman";
+                    exSheet.Range["A4:E4"].Font.Bold = true;
+
+                    // Dữ liệu
+                    int hang = 5;
+                    foreach (DataGridViewRow r in dgvSanPham.Rows)
+                    {
+                        exSheet.Cells[hang, 1] = Chuoi(r.Cells["MaSP"].Value);
+                        exSheet.Cells[hang, 2] = Chuoi(r.Cells["TenSP"].Value);
+                        exSheet.Cells[hang, 3] = Chuoi(r.Cells["TenLoai"].Value);
+                        exSheet.Cells[hang, 4] = Convert.ToDecimal(r.Cells["DonGia"].Value);
+                        exSheet.Cells[hang, 5] = Chuoi(r.Cells["DonViTinh"].Value);
+                        hang++;
+                    }
+                   
+                    exSheet.Columns.AutoFit();
+
+                    exBook.SaveAs(dlg.FileName);
+                    MessageBox.Show("Đã xuất file Excel thành công.");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Không xuất được Excel: " + ex.Message);
+                }
+                finally
+                {
+                    if (exBook != null) exBook.Close(false);
+                    if (exApp != null) exApp.Quit();
+                }
+            }
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
