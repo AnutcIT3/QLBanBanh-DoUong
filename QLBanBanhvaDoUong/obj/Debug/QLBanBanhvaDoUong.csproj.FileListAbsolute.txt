@@ -12,3 +12,4 @@ E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.pd
 E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.Forms.DanhMuc.frmSanPham.resources
 E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.Forms.HeThong.frmDoiMatKhau.resources
 E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.Forms.NghiepVu.frmBanHang.resources
+E:\C#Learning\QLBanBanhvaDoUong\QLBanBanhvaDoUong\obj\Debug\QLBanBanhvaDoUong.Forms.NghiepVu.frmThanhToan.resources

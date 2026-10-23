@@ -1,5 +1,6 @@
 ﻿using QLBanBanhvaDoUong.Classes;
 using QLBanBanhvaDoUong.Forms.DanhMuc;
+using QLBanBanhvaDoUong.Forms.NghiepVu;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -54,7 +55,8 @@ namespace QLBanBanhvaDoUong.Fomrs.HeThong
 
         private void banHangToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmBanHang bh = new frmBanHang();
+            bh.ShowDialog(this);
         }
 
         private void btnDangXuat_Click(object sender, EventArgs e)
