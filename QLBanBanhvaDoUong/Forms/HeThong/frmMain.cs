@@ -99,5 +99,10 @@ namespace QLBanBanhvaDoUong.Fomrs.HeThong
             frmSanPham sp = new frmSanPham();
             sp.ShowDialog(this);
         }
+
+        private void hoaDonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MoForm(new frmHoaDon());
+        }
     }
 }

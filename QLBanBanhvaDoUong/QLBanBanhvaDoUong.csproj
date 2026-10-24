@@ -53,6 +53,7 @@
     <Compile Include="Classes\BanHangData.cs" />
     <Compile Include="Classes\DataProcesser.cs" />
     <Compile Include="Classes\Function.cs" />
+    <Compile Include="Classes\HoaDonData.cs" />
     <Compile Include="Classes\Session.cs" />
     <Compile Include="Classes\ThanhToanData.cs" />
     <Compile Include="Forms\DanhMuc\frmSanPham.cs">
@@ -85,6 +86,12 @@
     <Compile Include="Forms\NghiepVu\frmBanHang.Designer.cs">
       <DependentUpon>frmBanHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\NghiepVu\frmHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NghiepVu\frmHoaDon.Designer.cs">
+      <DependentUpon>frmHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\NghiepVu\frmThanhToan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\NghiepVu\frmBanHang.resx">
       <DependentUpon>frmBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NghiepVu\frmHoaDon.resx">
+      <DependentUpon>frmHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\NghiepVu\frmThanhToan.resx">
       <DependentUpon>frmThanhToan.cs</DependentUpon>

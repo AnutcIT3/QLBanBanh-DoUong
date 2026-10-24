@@ -181,23 +181,31 @@ namespace QLBanBanhvaDoUong.Forms.NghiepVu
             int soLuong = (int)nudSoLuong.Value;
 
             // Bánh thì không có mức đường và đá (để trống)
-            object duong = laDoUong ? LayMucDuongChon() : DBNull.Value; ;
+            object duong = laDoUong ? LayMucDuongChon() : DBNull.Value;
             object da = laDoUong ? (object)BanHangData.DocPhanTram(cboDa.Text) : DBNull.Value;
 
-            DataRow dong = gio.Rows.Find(ma);
-            if (dong == null)
+            // --- Duyệt kiểm tra xem có dòng nào trùng cả MaSP, MucDuong VÀ MucDa chưa ---
+            DataRow dongTrung = null;
+            foreach (DataRow row in gio.Rows)
             {
-                gio.Rows.Add(ma, ten, soLuong, gia, duong, da);
+                if (BanHangData.Chuoi(row["MaSP"]) == ma &&
+                    Equals(row["MucDuong"], duong) &&
+                    Equals(row["MucDa"], da))
+                {
+                    dongTrung = row;
+                    break;
+                }
             }
-            else if (Equals(dong["MucDuong"], duong) && Equals(dong["MucDa"], da))
+
+            if (dongTrung != null)
             {
-                dong["SoLuong"] = (int)dong["SoLuong"] + soLuong;
+                // Trùng cả 3 thuộc tính (Món + Đường + Đá) -> Cộng dồn số lượng
+                dongTrung["SoLuong"] = (int)dongTrung["SoLuong"] + soLuong;
             }
             else
             {
-                MessageBox.Show("Món này đã có trong giỏ với mức đường hoặc đá khác.\n" +
-                                "Hãy xóa dòng cũ, hoặc chọn cùng mức để cộng thêm số lượng.");
-                return;
+                // Món mới HOẶC cùng món nhưng khác mức Đường/Đá -> Thêm dòng mới riêng biệt
+                gio.Rows.Add(ma, ten, soLuong, gia, duong, da);
             }
 
             nudSoLuong.Value = 1;
@@ -212,8 +220,14 @@ namespace QLBanBanhvaDoUong.Forms.NghiepVu
         }
         private DataRow DongGioDangChon()
         {
-            if (dgvGioHang.CurrentRow == null) return null;
-            return gio.Rows.Find(BanHangData.Chuoi(dgvGioHang.CurrentRow.Cells["MaSP"].Value));
+            if (dgvGioHang.CurrentRow == null || dgvGioHang.CurrentRow.Index < 0) return null;
+
+            int index = dgvGioHang.CurrentRow.Index;
+            if (index < gio.Rows.Count)
+            {
+                return gio.Rows[index];
+            }
+            return null;
         }
 
         private void btnCong_Click(object sender, EventArgs e)

@@ -131,7 +131,7 @@ namespace QLBanBanhvaDoUong.Classes
             gio.Columns.Add("MucDuong", typeof(int));
             gio.Columns.Add("MucDa", typeof(int));
             gio.Columns.Add("ThanhTien", typeof(decimal), "SoLuong * DonGia");
-            gio.PrimaryKey = new[] { gio.Columns["MaSP"] };
+            //gio.PrimaryKey = new[] { gio.Columns["MaSP"] };
             return gio;
         }
 
