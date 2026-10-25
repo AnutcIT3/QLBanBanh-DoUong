@@ -123,6 +123,7 @@
             this.khachHangToolStripMenuItem.Name = "khachHangToolStripMenuItem";
             this.khachHangToolStripMenuItem.Size = new System.Drawing.Size(100, 24);
             this.khachHangToolStripMenuItem.Text = "Khách hàng";
+            this.khachHangToolStripMenuItem.Click += new System.EventHandler(this.khachHangToolStripMenuItem_Click);
             // 
             // hoaDonToolStripMenuItem
             // 
@@ -136,12 +137,14 @@
             this.nhanVienToolStripMenuItem.Name = "nhanVienToolStripMenuItem";
             this.nhanVienToolStripMenuItem.Size = new System.Drawing.Size(89, 24);
             this.nhanVienToolStripMenuItem.Text = "Nhân viên";
+            this.nhanVienToolStripMenuItem.Click += new System.EventHandler(this.nhanVienToolStripMenuItem_Click);
             // 
             // thongKeToolStripMenuItem
             // 
             this.thongKeToolStripMenuItem.Name = "thongKeToolStripMenuItem";
             this.thongKeToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.thongKeToolStripMenuItem.Text = "Thống kê";
+            this.thongKeToolStripMenuItem.Click += new System.EventHandler(this.thongKeToolStripMenuItem_Click);
             // 
             // lblXinChao
             // 

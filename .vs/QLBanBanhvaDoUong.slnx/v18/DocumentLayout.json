@@ -3,23 +3,47 @@
   "WorkspaceRootPath": "E:\\C#Learning\\QLBanBanhvaDoUong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\hethong\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\hethong\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\baocao\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\baocao\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\hethong\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\hethong\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\baocao\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\baocao\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\baocao\\frmthongke.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\baocao\\frmthongke.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\danhmuc\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\danhmuc\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\danhmuc\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\danhmuc\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\danhmuc\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\danhmuc\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|E:\\C#Learning\\QLBanBanhvaDoUong\\qlbanbanhvadouong\\forms\\danhmuc\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\danhmuc\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|E:\\C#Learning\\QLBanBanhvaDoUong\\qlbanbanhvadouong\\forms\\danhmuc\\frmkhachhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\danhmuc\\frmkhachhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|E:\\C#Learning\\QLBanBanhvaDoUong\\qlbanbanhvadouong\\forms\\nghiepvu\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\nghiepvu\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\nghiepvu\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|E:\\C#Learning\\QLBanBanhvaDoUong\\qlbanbanhvadouong\\forms\\nghiepvu\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\nghiepvu\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|e:\\c#learning\\qlbanbanhvadouong\\qlbanbanhvadouong\\forms\\nghiepvu\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|E:\\C#Learning\\QLBanBanhvaDoUong\\qlbanbanhvadouong\\forms\\nghiepvu\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13993F68-70C1-4A9C-8565-30D01B19246C}|QLBanBanhvaDoUong\\QLBanBanhvaDoUong.csproj|solutionrelative:qlbanbanhvadouong\\forms\\nghiepvu\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,36 +82,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\HeThong\\frmMain.cs",
-              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\HeThong\\frmMain.cs",
-              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\HeThong\\frmMain.cs",
-              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\HeThong\\frmMain.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAA0wGgAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmThongKe.cs",
+              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.cs",
+              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.cs",
+              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.cs",
+              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAgwDIBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T14:16:47.497Z",
+              "WhenOpened": "2026-10-25T14:51:33.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmMain.cs [Design]",
-              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\HeThong\\frmMain.cs",
-              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\HeThong\\frmMain.cs",
-              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\HeThong\\frmMain.cs [Design]",
-              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\HeThong\\frmMain.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "frmThongKe.cs [Design]",
+              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.cs",
+              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.cs",
+              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.cs [Design]",
+              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T14:16:46.052Z",
+              "WhenOpened": "2026-10-25T14:38:26.959Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmThongKe.Designer.cs",
+              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.Designer.cs",
+              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.Designer.cs",
+              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.Designer.cs",
+              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\BaoCao\\frmThongKe.Designer.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAUwNcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T16:02:32.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmNhanVien.cs [Design]",
+              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmNhanVien.cs",
+              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmNhanVien.cs [Design]",
+              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:21:49.531Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.cs",
+              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.cs [Design]",
+              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T03:02:28.166Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmNhanVien.cs",
+              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmNhanVien.cs",
+              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmNhanVien.cs",
+              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmNhanVien.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAA6wBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:37:50.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.cs",
+              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.cs",
+              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwAQBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T03:25:57.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmKhachHang.Designer.cs",
+              "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.Designer.cs",
+              "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.Designer.cs",
+              "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.Designer.cs",
+              "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\DanhMuc\\frmKhachHang.Designer.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAUwMEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T03:39:48.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "frmHoaDon.Designer.cs",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.Designer.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.Designer.cs",
@@ -95,12 +194,11 @@
               "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.Designer.cs",
               "ViewState": "AgIAAOcBAAAAAAAAAAArwPQBAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T13:26:23.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-24T13:26:23.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "frmHoaDon.cs",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.cs",
@@ -108,24 +206,22 @@
               "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.cs",
               "ViewState": "AgIAAGEBAAAAAAAAAAAUwG8BAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T08:17:44.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-24T08:17:44.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "frmHoaDon.cs [Design]",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.cs",
               "ToolTip": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.cs [Design]",
               "RelativeToolTip": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmHoaDon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T08:17:30.661Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-10-24T08:17:30.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "HoaDonData.cs",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Classes\\HoaDonData.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Classes\\HoaDonData.cs",
@@ -137,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "frmBanHang.cs",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmBanHang.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmBanHang.cs",
@@ -149,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "frmThanhToan.Designer.cs",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmThanhToan.Designer.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmThanhToan.Designer.cs",
@@ -161,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "frmThanhToan.cs",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmThanhToan.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmThanhToan.cs",
@@ -173,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "frmBanHang.cs [Design]",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmBanHang.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmBanHang.cs",
@@ -184,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "BanHangData.cs",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Classes\\BanHangData.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Classes\\BanHangData.cs",
@@ -196,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "frmThanhToan.cs [Design]",
               "DocumentMoniker": "E:\\C#Learning\\QLBanBanhvaDoUong\\QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmThanhToan.cs",
               "RelativeDocumentMoniker": "QLBanBanhvaDoUong\\Forms\\NghiepVu\\frmThanhToan.cs",

@@ -104,5 +104,20 @@ namespace QLBanBanhvaDoUong.Fomrs.HeThong
         {
             MoForm(new frmHoaDon());
         }
+
+        private void khachHangToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MoForm(new frmKhachHang());
+        }
+
+        private void nhanVienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MoForm(new frmNhanVien());
+        }
+
+        private void thongKeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MoForm(new frmThongKe());
+        }
     }
 }
