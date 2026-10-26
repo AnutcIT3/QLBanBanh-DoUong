@@ -296,6 +296,7 @@
             this.cboPhuongThuc.Name = "cboPhuongThuc";
             this.cboPhuongThuc.Size = new System.Drawing.Size(137, 24);
             this.cboPhuongThuc.TabIndex = 11;
+            this.cboPhuongThuc.SelectedIndexChanged += new System.EventHandler(this.cboPhuongThuc_SelectedIndexChanged);
             // 
             // btnXacNhan
             // 

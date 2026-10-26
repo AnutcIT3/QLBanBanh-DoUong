@@ -7,6 +7,11 @@ using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using Excel = Microsoft.Office.Interop.Excel;
 
+// 2. Chỉ định rõ class hệ thống cần dùng để giải quyết xung đột với Excel Interop
+using DataTable = System.Data.DataTable;
+using Series = System.Windows.Forms.DataVisualization.Charting.Series;
+using Legend = System.Windows.Forms.DataVisualization.Charting.Legend;
+
 // Nếu namespace trong file của bạn khác, GIỮ dòng namespace cũ của bạn
 // và chỉ chép phần bên trong lớp frmThongKe cùng các dòng using ở trên.
 //

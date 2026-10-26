@@ -59,7 +59,7 @@
             this.thongKeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -86,35 +86,35 @@
             // banhNgotToolStripMenuItem
             // 
             this.banhNgotToolStripMenuItem.Name = "banhNgotToolStripMenuItem";
-            this.banhNgotToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.banhNgotToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.banhNgotToolStripMenuItem.Text = "Bánh ngọt";
             this.banhNgotToolStripMenuItem.Click += new System.EventHandler(this.banhNgotToolStripMenuItem_Click);
             // 
             // banhManToolStripMenuItem
             // 
             this.banhManToolStripMenuItem.Name = "banhManToolStripMenuItem";
-            this.banhManToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.banhManToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.banhManToolStripMenuItem.Text = "Bánh mặn";
             this.banhManToolStripMenuItem.Click += new System.EventHandler(this.banhManToolStripMenuItem_Click);
             // 
             // traToolStripMenuItem
             // 
             this.traToolStripMenuItem.Name = "traToolStripMenuItem";
-            this.traToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.traToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.traToolStripMenuItem.Text = "Trà";
             this.traToolStripMenuItem.Click += new System.EventHandler(this.traToolStripMenuItem_Click);
             // 
             // cafeToolStripMenuItem
             // 
             this.cafeToolStripMenuItem.Name = "cafeToolStripMenuItem";
-            this.cafeToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.cafeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.cafeToolStripMenuItem.Text = "Cafe";
             this.cafeToolStripMenuItem.Click += new System.EventHandler(this.cafeToolStripMenuItem_Click);
             // 
             // AllToolStripMenuItem
             // 
             this.AllToolStripMenuItem.Name = "AllToolStripMenuItem";
-            this.AllToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.AllToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.AllToolStripMenuItem.Text = "Tất cả sản phẩm";
             this.AllToolStripMenuItem.Click += new System.EventHandler(this.AllToolStripMenuItem_Click);
             // 
@@ -157,6 +157,8 @@
             // 
             // btnDangXuat
             // 
+            this.btnDangXuat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDangXuat.AutoSize = true;
             this.btnDangXuat.Location = new System.Drawing.Point(682, 396);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Size = new System.Drawing.Size(106, 42);
@@ -167,6 +169,10 @@
             // 
             // grbSanPham
             // 
+            this.grbSanPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.grbSanPham.AutoSize = true;
             this.grbSanPham.Location = new System.Drawing.Point(12, 71);
             this.grbSanPham.Name = "grbSanPham";
             this.grbSanPham.Size = new System.Drawing.Size(776, 319);
@@ -176,6 +182,7 @@
             // 
             // lblDoanhThuNgay
             // 
+            this.lblDoanhThuNgay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDoanhThuNgay.AutoSize = true;
             this.lblDoanhThuNgay.Location = new System.Drawing.Point(562, 41);
             this.lblDoanhThuNgay.Name = "lblDoanhThuNgay";

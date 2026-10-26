@@ -86,7 +86,7 @@ namespace QLBanBanhvaDoUong.Fomrs.HeThong
 
         private void banhManToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MoForm(new frmSanPham("L04"));
+            MoForm(new frmSanPham("L01"));
         }
 
         private void cafeToolStripMenuItem_Click(object sender, EventArgs e)
