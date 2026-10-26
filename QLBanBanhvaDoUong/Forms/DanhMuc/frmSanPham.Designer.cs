@@ -165,9 +165,12 @@
             // 
             // picAnh
             // 
+            this.picAnh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picAnh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.picAnh.Location = new System.Drawing.Point(681, 84);
             this.picAnh.Name = "picAnh";
             this.picAnh.Size = new System.Drawing.Size(207, 217);
+            this.picAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAnh.TabIndex = 23;
             this.picAnh.TabStop = false;
             // 

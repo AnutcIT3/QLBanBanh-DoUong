@@ -43,8 +43,15 @@
             this.lblXinChao = new System.Windows.Forms.Label();
             this.btnDangXuat = new System.Windows.Forms.Button();
             this.grbSanPham = new System.Windows.Forms.GroupBox();
+            this.picTop2 = new System.Windows.Forms.PictureBox();
+            this.picTop1 = new System.Windows.Forms.PictureBox();
+            this.dgvSanPhamNoiBat = new System.Windows.Forms.DataGridView();
             this.lblDoanhThuNgay = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
+            this.grbSanPham.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTop2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTop1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSanPhamNoiBat)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -59,7 +66,7 @@
             this.thongKeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -86,35 +93,35 @@
             // banhNgotToolStripMenuItem
             // 
             this.banhNgotToolStripMenuItem.Name = "banhNgotToolStripMenuItem";
-            this.banhNgotToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.banhNgotToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
             this.banhNgotToolStripMenuItem.Text = "Bánh ngọt";
             this.banhNgotToolStripMenuItem.Click += new System.EventHandler(this.banhNgotToolStripMenuItem_Click);
             // 
             // banhManToolStripMenuItem
             // 
             this.banhManToolStripMenuItem.Name = "banhManToolStripMenuItem";
-            this.banhManToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.banhManToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
             this.banhManToolStripMenuItem.Text = "Bánh mặn";
             this.banhManToolStripMenuItem.Click += new System.EventHandler(this.banhManToolStripMenuItem_Click);
             // 
             // traToolStripMenuItem
             // 
             this.traToolStripMenuItem.Name = "traToolStripMenuItem";
-            this.traToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.traToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
             this.traToolStripMenuItem.Text = "Trà";
             this.traToolStripMenuItem.Click += new System.EventHandler(this.traToolStripMenuItem_Click);
             // 
             // cafeToolStripMenuItem
             // 
             this.cafeToolStripMenuItem.Name = "cafeToolStripMenuItem";
-            this.cafeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cafeToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
             this.cafeToolStripMenuItem.Text = "Cafe";
             this.cafeToolStripMenuItem.Click += new System.EventHandler(this.cafeToolStripMenuItem_Click);
             // 
             // AllToolStripMenuItem
             // 
             this.AllToolStripMenuItem.Name = "AllToolStripMenuItem";
-            this.AllToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.AllToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
             this.AllToolStripMenuItem.Text = "Tất cả sản phẩm";
             this.AllToolStripMenuItem.Click += new System.EventHandler(this.AllToolStripMenuItem_Click);
             // 
@@ -173,12 +180,43 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grbSanPham.AutoSize = true;
+            this.grbSanPham.Controls.Add(this.picTop2);
+            this.grbSanPham.Controls.Add(this.picTop1);
+            this.grbSanPham.Controls.Add(this.dgvSanPhamNoiBat);
             this.grbSanPham.Location = new System.Drawing.Point(12, 71);
             this.grbSanPham.Name = "grbSanPham";
-            this.grbSanPham.Size = new System.Drawing.Size(776, 319);
+            this.grbSanPham.Size = new System.Drawing.Size(782, 322);
             this.grbSanPham.TabIndex = 3;
             this.grbSanPham.TabStop = false;
             this.grbSanPham.Text = "Sản phẩm nổi bật";
+            // 
+            // picTop2
+            // 
+            this.picTop2.Location = new System.Drawing.Point(443, 180);
+            this.picTop2.Name = "picTop2";
+            this.picTop2.Size = new System.Drawing.Size(333, 121);
+            this.picTop2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTop2.TabIndex = 3;
+            this.picTop2.TabStop = false;
+            // 
+            // picTop1
+            // 
+            this.picTop1.Location = new System.Drawing.Point(443, 21);
+            this.picTop1.Name = "picTop1";
+            this.picTop1.Size = new System.Drawing.Size(333, 130);
+            this.picTop1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTop1.TabIndex = 2;
+            this.picTop1.TabStop = false;
+            // 
+            // dgvSanPhamNoiBat
+            // 
+            this.dgvSanPhamNoiBat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSanPhamNoiBat.Location = new System.Drawing.Point(6, 38);
+            this.dgvSanPhamNoiBat.Name = "dgvSanPhamNoiBat";
+            this.dgvSanPhamNoiBat.RowHeadersWidth = 51;
+            this.dgvSanPhamNoiBat.RowTemplate.Height = 24;
+            this.dgvSanPhamNoiBat.Size = new System.Drawing.Size(422, 256);
+            this.dgvSanPhamNoiBat.TabIndex = 1;
             // 
             // lblDoanhThuNgay
             // 
@@ -207,6 +245,10 @@
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.grbSanPham.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picTop2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTop1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSanPhamNoiBat)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -230,6 +272,9 @@
         private System.Windows.Forms.ToolStripMenuItem traToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cafeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AllToolStripMenuItem;
+        private System.Windows.Forms.DataGridView dgvSanPhamNoiBat;
+        private System.Windows.Forms.PictureBox picTop2;
+        private System.Windows.Forms.PictureBox picTop1;
     }
 }
 
